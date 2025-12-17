@@ -1,0 +1,513 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2025.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Dwaraka Deepika vadd\Downloads\Radhika_midterm\Chicago_2025-partyear.xlsx|||`Sheet 1 - Chicago_2025-partyear$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Chicago_2025-partyear.xlsx
+Query=`Sheet 1 - Chicago_2025-part...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Inspection ID" source="File: C:\Users\Dwaraka Deepika vadd\Downloads\Radhika_midterm\Chicago_2025-partyear.xlsx|||`Sheet 1 - Chicago_2025-partyear$`" type="Double" />
+            <Field name="DBA Name" size="255" source="File: C:\Users\Dwaraka Deepika vadd\Downloads\Radhika_midterm\Chicago_2025-partyear.xlsx|||`Sheet 1 - Chicago_2025-partyear$`" type="V_String" />
+            <Field name="AKA Name" size="255" source="File: C:\Users\Dwaraka Deepika vadd\Downloads\Radhika_midterm\Chicago_2025-partyear.xlsx|||`Sheet 1 - Chicago_2025-partyear$`" type="V_String" />
+            <Field name="License #" source="File: C:\Users\Dwaraka Deepika vadd\Downloads\Radhika_midterm\Chicago_2025-partyear.xlsx|||`Sheet 1 - Chicago_2025-partyear$`" type="Double" />
+            <Field name="Facility Type" size="255" source="File: C:\Users\Dwaraka Deepika vadd\Downloads\Radhika_midterm\Chicago_2025-partyear.xlsx|||`Sheet 1 - Chicago_2025-partyear$`" type="V_String" />
+            <Field name="Risk" size="255" source="File: C:\Users\Dwaraka Deepika vadd\Downloads\Radhika_midterm\Chicago_2025-partyear.xlsx|||`Sheet 1 - Chicago_2025-partyear$`" type="V_String" />
+            <Field name="Address" size="255" source="File: C:\Users\Dwaraka Deepika vadd\Downloads\Radhika_midterm\Chicago_2025-partyear.xlsx|||`Sheet 1 - Chicago_2025-partyear$`" type="V_String" />
+            <Field name="City" size="255" source="File: C:\Users\Dwaraka Deepika vadd\Downloads\Radhika_midterm\Chicago_2025-partyear.xlsx|||`Sheet 1 - Chicago_2025-partyear$`" type="V_String" />
+            <Field name="State" size="255" source="File: C:\Users\Dwaraka Deepika vadd\Downloads\Radhika_midterm\Chicago_2025-partyear.xlsx|||`Sheet 1 - Chicago_2025-partyear$`" type="V_String" />
+            <Field name="Zip" source="File: C:\Users\Dwaraka Deepika vadd\Downloads\Radhika_midterm\Chicago_2025-partyear.xlsx|||`Sheet 1 - Chicago_2025-partyear$`" type="Double" />
+            <Field name="Inspection Date" size="255" source="File: C:\Users\Dwaraka Deepika vadd\Downloads\Radhika_midterm\Chicago_2025-partyear.xlsx|||`Sheet 1 - Chicago_2025-partyear$`" type="V_String" />
+            <Field name="Inspection Type" size="255" source="File: C:\Users\Dwaraka Deepika vadd\Downloads\Radhika_midterm\Chicago_2025-partyear.xlsx|||`Sheet 1 - Chicago_2025-partyear$`" type="V_String" />
+            <Field name="Results" size="255" source="File: C:\Users\Dwaraka Deepika vadd\Downloads\Radhika_midterm\Chicago_2025-partyear.xlsx|||`Sheet 1 - Chicago_2025-partyear$`" type="V_String" />
+            <Field name="Violations" size="7324" source="File: C:\Users\Dwaraka Deepika vadd\Downloads\Radhika_midterm\Chicago_2025-partyear.xlsx|||`Sheet 1 - Chicago_2025-partyear$`" type="V_WString" />
+            <Field name="Latitude" source="File: C:\Users\Dwaraka Deepika vadd\Downloads\Radhika_midterm\Chicago_2025-partyear.xlsx|||`Sheet 1 - Chicago_2025-partyear$`" type="Double" />
+            <Field name="Longitude" source="File: C:\Users\Dwaraka Deepika vadd\Downloads\Radhika_midterm\Chicago_2025-partyear.xlsx|||`Sheet 1 - Chicago_2025-partyear$`" type="Double" />
+            <Field name="Location" size="255" source="File: C:\Users\Dwaraka Deepika vadd\Downloads\Radhika_midterm\Chicago_2025-partyear.xlsx|||`Sheet 1 - Chicago_2025-partyear$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="150" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\DWARAK~1\AppData\Local\Temp\Alteryx\Engine_13808_ebc1183a557b4a69ae9e76d972f2ab1f_\Engine_13808_1f9038610a3c4053997cd37f5bbfa4d5~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="138" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Inspection ID" selected="True" type="Int64" size="8" />
+            <SelectField field="DBA Name" selected="True" type="V_WString" size="255" />
+            <SelectField field="AKA Name" selected="True" />
+            <SelectField field="License #" selected="True" rename="License_No" type="String" size="10" />
+            <SelectField field="Facility Type" selected="True" />
+            <SelectField field="Risk" selected="True" />
+            <SelectField field="Address" selected="True" />
+            <SelectField field="City" selected="True" />
+            <SelectField field="State" selected="True" />
+            <SelectField field="Zip" selected="True" type="String" size="16384" />
+            <SelectField field="Inspection Date" selected="True" type="Date" size="10" />
+            <SelectField field="Inspection Type" selected="True" type="V_WString" size="255" />
+            <SelectField field="Results" selected="True" />
+            <SelectField field="Violations" selected="True" />
+            <SelectField field="Latitude" selected="True" />
+            <SelectField field="Longitude" selected="True" />
+            <SelectField field="Location" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="234" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\DWARAK~1\AppData\Local\Temp\Alteryx\Engine_13808_ebc1183a557b4a69ae9e76d972f2ab1f_\Engine_13808_fca61ecc4b534b80b2f0f3dc56037105~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DataCleansePro.DataCleansePro">
+        <Position x="270" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RemoveNullRows value="True" />
+          <RemoveNullColumns value="True" />
+          <RemoveTabsLineBreaksAndDuplicates value="False" />
+          <RemoveLeadingAndTrailingWhitespace value="True" />
+          <RemoveAllWhitespaces value="False" />
+          <RemoveHTMLTags value="False" />
+          <RemoveInvisibleCharacters value="False" />
+          <Fields>
+            <Field value="Inspection ID" selected="False" />
+            <Field value="DBA Name" selected="True" />
+            <Field value="AKA Name" selected="True" />
+            <Field value="License_No" selected="False" />
+            <Field value="Facility Type" selected="False" />
+            <Field value="Risk" selected="False" />
+            <Field value="Address" selected="False" />
+            <Field value="City" selected="False" />
+            <Field value="State" selected="False" />
+            <Field value="Zip" selected="True" />
+            <Field value="Inspection Date" selected="True" />
+            <Field value="Inspection Type" selected="True" />
+            <Field value="Results" selected="True" />
+            <Field value="Violations" selected="False" />
+            <Field value="Latitude" selected="False" />
+            <Field value="Longitude" selected="False" />
+            <Field value="Location" selected="False" />
+            <Field value="*Unknown" selected="False" />
+          </Fields>
+          <RemoveLetters value="False" />
+          <RemoveNumbers value="False" />
+          <RemovePunctuation value="False" />
+          <Letters value="" />
+          <Numbers value="" />
+          <Punctuations value="" />
+          <Exceptions value="" />
+          <Checkbox_ReplaceStringColumns value="True" />
+          <Checkbox_ReplaceNumericColumns value="True" />
+          <radioButton_ReplaceNullwithBlanks value="True" />
+          <radioButton_ReplaceBlankswithNulls value="False" />
+          <radioButton_ReplaceNullwithZero value="True" />
+          <radioButton_ReplaceZerowithNulls value="False" />
+          <ReplaceWithBlanks value="True" />
+          <ReplaceWithZero value="True" />
+          <CheckBox_ModifyCase value="False" />
+          <ModifyCase value="none" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDataCleanse" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+        <Position x="366" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RenameMode>Formula</RenameMode>
+          <Fields orderChanged="True">
+            <Field name="Inspection ID" />
+            <Field name="DBA Name" />
+            <Field name="AKA Name" />
+            <Field name="Facility Type" />
+            <Field name="Inspection Type" />
+            <Field name="Inspection Date" />
+            <Field name="License_No" />
+            <Field name="Risk" />
+            <Field name="Address" />
+            <Field name="City" />
+            <Field name="State" />
+            <Field name="Zip" />
+            <Field name="Results" />
+            <Field name="Violations" />
+            <Field name="Latitude" />
+            <Field name="Longitude" />
+            <Field name="Location" />
+            <Field name="*Unknown" selected="False" />
+          </Fields>
+          <Expression>LowerCase(REGEX_Replace(REGEX_Replace([_CurrentField_], "[^A-Za-z0-9]", "_"),"_+", "_"))</Expression>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="inspection_id" source="File: C:\Users\Dwaraka Deepika vadd\Downloads\Radhika_midterm\Chicago_2025-partyear.xlsx|||`Sheet 1 - Chicago_2025-partyear$`" type="Int64" />
+            <Field name="dba_name" size="255" source="File: C:\Users\Dwaraka Deepika vadd\Downloads\Radhika_midterm\Chicago_2025-partyear.xlsx|||`Sheet 1 - Chicago_2025-partyear$`" type="V_WString" />
+            <Field name="aka_name" size="255" source="File: C:\Users\Dwaraka Deepika vadd\Downloads\Radhika_midterm\Chicago_2025-partyear.xlsx|||`Sheet 1 - Chicago_2025-partyear$`" type="V_String" />
+            <Field name="license_no" size="10" source="File: C:\Users\Dwaraka Deepika vadd\Downloads\Radhika_midterm\Chicago_2025-partyear.xlsx|||`Sheet 1 - Chicago_2025-partyear$`" type="String" />
+            <Field name="facility_type" size="255" source="File: C:\Users\Dwaraka Deepika vadd\Downloads\Radhika_midterm\Chicago_2025-partyear.xlsx|||`Sheet 1 - Chicago_2025-partyear$`" type="V_String" />
+            <Field name="risk" size="255" source="File: C:\Users\Dwaraka Deepika vadd\Downloads\Radhika_midterm\Chicago_2025-partyear.xlsx|||`Sheet 1 - Chicago_2025-partyear$`" type="V_String" />
+            <Field name="address" size="255" source="File: C:\Users\Dwaraka Deepika vadd\Downloads\Radhika_midterm\Chicago_2025-partyear.xlsx|||`Sheet 1 - Chicago_2025-partyear$`" type="V_String" />
+            <Field name="city" size="255" source="File: C:\Users\Dwaraka Deepika vadd\Downloads\Radhika_midterm\Chicago_2025-partyear.xlsx|||`Sheet 1 - Chicago_2025-partyear$`" type="V_String" />
+            <Field name="state" size="255" source="File: C:\Users\Dwaraka Deepika vadd\Downloads\Radhika_midterm\Chicago_2025-partyear.xlsx|||`Sheet 1 - Chicago_2025-partyear$`" type="V_String" />
+            <Field name="zip" size="16384" source="File: C:\Users\Dwaraka Deepika vadd\Downloads\Radhika_midterm\Chicago_2025-partyear.xlsx|||`Sheet 1 - Chicago_2025-partyear$`" type="String" />
+            <Field name="inspection_date" source="File: C:\Users\Dwaraka Deepika vadd\Downloads\Radhika_midterm\Chicago_2025-partyear.xlsx|||`Sheet 1 - Chicago_2025-partyear$`" type="Date" />
+            <Field name="inspection_type" size="255" source="File: C:\Users\Dwaraka Deepika vadd\Downloads\Radhika_midterm\Chicago_2025-partyear.xlsx|||`Sheet 1 - Chicago_2025-partyear$`" type="V_WString" />
+            <Field name="results" size="255" source="File: C:\Users\Dwaraka Deepika vadd\Downloads\Radhika_midterm\Chicago_2025-partyear.xlsx|||`Sheet 1 - Chicago_2025-partyear$`" type="V_String" />
+            <Field name="violations" size="7324" source="File: C:\Users\Dwaraka Deepika vadd\Downloads\Radhika_midterm\Chicago_2025-partyear.xlsx|||`Sheet 1 - Chicago_2025-partyear$`" type="V_WString" />
+            <Field name="latitude" source="File: C:\Users\Dwaraka Deepika vadd\Downloads\Radhika_midterm\Chicago_2025-partyear.xlsx|||`Sheet 1 - Chicago_2025-partyear$`" type="Double" />
+            <Field name="longitude" source="File: C:\Users\Dwaraka Deepika vadd\Downloads\Radhika_midterm\Chicago_2025-partyear.xlsx|||`Sheet 1 - Chicago_2025-partyear$`" type="Double" />
+            <Field name="location" size="255" source="File: C:\Users\Dwaraka Deepika vadd\Downloads\Radhika_midterm\Chicago_2025-partyear.xlsx|||`Sheet 1 - Chicago_2025-partyear$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="570" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\DWARAK~1\AppData\Local\Temp\Alteryx\Engine_13808_ebc1183a557b4a69ae9e76d972f2ab1f_\Engine_13808_f3ffc21403f347489d9810652d39fb63~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="570" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF IsNull([Results]) OR Trim([Results]) = &quot;&quot; THEN&#xA;    Null()&#xA;ELSEIF Regex_Replace(UpperCase(Trim([Results])), &quot;[^A-Z ]&quot;, &quot;&quot;) = &quot;PASS&quot; THEN&#xA;    90&#xA;ELSEIF Regex_Replace(UpperCase(Trim([Results])), &quot;[^A-Z ]&quot;, &quot;&quot;) = &quot;PASS W CONDITIONS&quot;&#xA;   OR Regex_Replace(UpperCase(Trim([Results])), &quot;[^A-Z ]&quot;, &quot;&quot;) = &quot;PASS WITH CONDITIONS&quot; THEN&#xA;    80&#xA;ELSEIF Regex_Replace(UpperCase(Trim([Results])), &quot;[^A-Z ]&quot;, &quot;&quot;) = &quot;FAIL&quot; THEN&#xA;    70&#xA;ELSEIF Regex_Replace(UpperCase(Trim([Results])), &quot;[^A-Z ]&quot;, &quot;&quot;) = &quot;NO ENTRY&quot; THEN&#xA;    0&#xA;ELSE&#xA;    Null()&#xA;ENDIF&#xA;" field="Violation_Score" size="4" type="Int32" enabled="true" />
+            <FormulaField expression="REGEX_Replace([Zip], &quot;-.*&quot;,&quot;&quot;)" field="zip" size="16384" type="String" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Violation_Score = IF IsNull([Results]) OR Trim([Results]) = "" THEN
+    Null()
+E...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="678" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\DWARAK~1\AppData\Local\Temp\Alteryx\Engine_13808_ebc1183a557b4a69ae9e76d972f2ab1f_\Engine_13808_074c025d824141efb9cb595b4f4c6ae3~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="666" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="License_No" selected="True" type="Int64" size="8" />
+            <SelectField field="Zip" selected="True" type="Int64" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="786" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\DWARAK~1\AppData\Local\Temp\Alteryx\Engine_13808_ebc1183a557b4a69ae9e76d972f2ab1f_\Engine_13808_e2d057440091464fb37bb9803e95e541~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="762" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\Dwaraka Deepika vadd\Downloads\Radhika_midterm\Cleansed Chicago Data\Cleansed_Chicago_2025-partyear.csv</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+            <SuppressBlankFile>False</SuppressBlankFile>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Cleansed_Chicago_2025-partyear.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="18" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <DefaultTZ value="Local" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Chicago</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="c8976385-11a4-4fc9-ae8b-b4cc0a392639" />
+      <Telemetry>
+        <PreviousWorkflowId value="119cf1a4-d753-4ce6-8166-93ed4d774572" />
+        <OriginWorkflowId value="119cf1a4-d753-4ce6-8166-93ed4d774572" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
