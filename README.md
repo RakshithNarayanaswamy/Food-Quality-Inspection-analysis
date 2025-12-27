@@ -7,7 +7,7 @@ The datasets come from open government portals and differ significantly in schem
 
 The solution follows Medallion Architecture (Bronze → Silver → Gold) and produces business-ready BI dashboards using Power BI / Tableau.
 
-⸻
+---
 
 ## 🎯 Objectives
 
@@ -18,7 +18,7 @@ The solution follows Medallion Architecture (Bronze → Silver → Gold) and pro
 - Build analytical dashboards for inspection trends
 - Demonstrate real-world data engineering best practices
 
-⸻
+---
 
 ## 🏙️ Data Sources
 
@@ -37,7 +37,7 @@ Reference Documents
 - Dallas 47-Item Inspection Report
 - Chicago Blank Inspection Report
 
-⸻
+---
 
 ## 🏗️ Architecture – Medallion Design
 
@@ -62,7 +62,7 @@ Reference Documents
 - SCD Type-2 implemented
 - Optimized for BI tools
 
-⸻
+---
 
 ## Data Quality & Validation Rules (Silver Layer)
 
@@ -119,7 +119,7 @@ Reference Documents
 
 Tracks changes in restaurant name, ownership, or license over time.
 
-⸻
+---
 
 ## BI Dashboards (Power BI / Tableau)
 
@@ -144,7 +144,7 @@ Drill-Down Inspection Report
 - Violations (code & description)
 - Inspector comments
 
-⸻
+---
 
 ## Tools & Technologies
 
