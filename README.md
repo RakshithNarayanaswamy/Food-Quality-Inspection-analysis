@@ -126,7 +126,7 @@ Tracks changes in restaurant name, ownership, or license over time.
 Key Visuals
 
 - Inspection results by city
-  ![image](https://github.com/RakshithNarayanaswamy/Food-Quality-Inspection-analysis/blob/main/Images/image.pngs)
+  ![image](https://github.com/RakshithNarayanaswamy/Food-Quality-Inspection-analysis/blob/main/Images/image.png)
 - Inspection outcomes by type
   ![image](https://github.com/RakshithNarayanaswamy/Food-Quality-Inspection-analysis/blob/main/Images/Screenshot%202025-12-27%20at%205.47.35%E2%80%AFPM.png)
 - Risk category distribution
